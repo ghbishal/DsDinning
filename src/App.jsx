@@ -26,9 +26,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/">
-            <Route exact index element={<Home />} />
-          </Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/menu" element={<OurMenu />} />
         </Routes>
       </Router>
