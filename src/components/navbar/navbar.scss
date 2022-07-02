@@ -1,0 +1,210 @@
+nav {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+  &.scrolled {
+    background-color: #f05c06e5;
+  }
+
+  .nav-container {
+    max-width: var(--container-width-exlg);
+    margin: 0 auto;
+
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .logo {
+      float: left;
+
+      a {
+        color: var(--color-black);
+        font-size: 1.68rem;
+        font-weight: 600;
+        line-height: 70px;
+        padding-left: 60px;
+      }
+    }
+
+    .icon,
+    input {
+      display: none;
+    }
+
+    ul {
+      float: right;
+      margin-right: 40px;
+      list-style: none;
+      position: relative;
+
+      li {
+        float: left;
+        display: inline-block;
+        background: transparent;
+        margin: 0 5px;
+        font-family: "GenJyuuBold", "Noto Serif JP", serif;
+
+        &:hover > ul {
+          top: 70px;
+          opacity: 1;
+          visibility: visible;
+        }
+
+        a {
+          color: var(--color-black);
+          line-height: 70px;
+          text-decoration: none;
+          font-size: 18px;
+          padding: 8px 15px;
+          transition: var(--transition);
+          font-family: "GenJyuuBold", "Noto Serif JP", serif;
+
+          &:hover {
+            color: var(--color-white);
+            border-radius: 5px;
+            box-shadow: 0 0 5px var(--color-yellow),
+              0 0 10px var(--color-yellow);
+          }
+        }
+
+        .show {
+          display: none;
+        }
+      }
+
+      ul {
+        position: absolute;
+        top: 90px;
+        border-top: 3px solid var(--color-yellow);
+        opacity: 0;
+        visibility: hidden;
+        transition: top 0.3s;
+
+        &.scrolled {
+          background-color: #f05c06e5;
+        }
+
+        li {
+          position: relative;
+          margin: 0px;
+          width: 150px;
+          float: none;
+          display: list-item;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+          a {
+            line-height: 50px;
+
+            &:hover {
+              box-shadow: none;
+            }
+          }
+        }
+
+        ul {
+          border-top: none;
+        }
+      }
+    }
+  }
+}
+
+/* ==================== MEDIA QUERY ==================*/
+
+@media all and (max-width: 968px) {
+  nav {
+    .nav-container {
+      .logo {
+        width: 100%;
+
+        a {
+          padding-left: 30px;
+        }
+      }
+
+      span.cancel:before {
+        content: "\f00d";
+      }
+
+      .icon {
+        display: block;
+        color: var(--color-black);
+        position: absolute;
+        top: 0;
+        right: 40px;
+        line-height: 70px;
+        cursor: pointer;
+        font-size: 25px;
+      }
+
+      [id^="btn"]:checked + ul {
+        display: none;
+      }
+
+      ul {
+        margin-right: 0px;
+        float: left;
+
+        li {
+          // display: block;
+          width: 100%;
+
+          a {
+            transition: var(--transition);
+
+            &:hover {
+              box-shadow: none;
+            }
+          }
+          .show + a {
+            display: none;
+          }
+
+          .show {
+            display: block;
+            font-family: "GenJyuuBold", "Noto Serif JP", serif;
+            color: var(--color-black);
+            font-size: 18px;
+            padding: 0 15px;
+            line-height: 70px;
+            cursor: pointer;
+
+            &:hover {
+              color: var(--color-yellow);
+            }
+          }
+
+          [id^="btn-1"]:checked ~ ul {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+
+        ul {
+          top: 70px;
+          border-top: 0px;
+          float: none;
+          position: static;
+          display: none;
+          opacity: 1;
+          visibility: visible;
+
+          a {
+            padding-left: 40px;
+          }
+          li {
+            margin-right: 0px;
+            float: left;
+          }
+        }
+      }
+
+      ul ul li {
+        border-bottom: 0px;
+      }
+    }
+  }
+}

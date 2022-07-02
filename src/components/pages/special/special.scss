@@ -1,0 +1,67 @@
+#special {
+  background-image: url("../../../assets/bgspecial.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  .special-container {
+    background: rgba(0, 0, 0, 0.8);
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // padding-bottom: 20px;
+
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+      background: var(--color-yellow);
+    }
+
+    h1 {
+      color: #8b7b5c;
+      font-size: 3.8rem;
+      font-family: "Lobster", cursive;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    .container {
+      background: #212529c2;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 0 auto;
+      width: 340px;
+      padding-bottom: 50px;
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .photo {
+          width: 320px;
+          height: 250px;
+        }
+
+        .food-lable {
+          text-align: center;
+
+          .food-name {
+            margin-top: 5px;
+            font-family: "GenJyuuBold", "Noto Serif JP", serif;
+            color: var(--color-yellow);
+            font-size: 2rem;
+          }
+          .description {
+            margin-top: 5px;
+            font-family: "GenJyuuBold", "Noto Serif JP", serif;
+            color: var(--color-white);
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}

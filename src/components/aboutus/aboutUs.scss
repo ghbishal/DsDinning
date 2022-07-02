@@ -1,0 +1,121 @@
+#aboutus {
+  .bg-pattern01 {
+    background-image: url(../../assets/bg_ico01.png),
+      url(../../assets/bg_pattern02.gif);
+    background-repeat: repeat;
+    .aboutus {
+      max-width: var(--container-width-exlg);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+
+      .row-1,
+      .row-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .about__txt {
+          text-align: center;
+          padding: 0 20px;
+          width: 600px;
+
+          h1 {
+            color: #8b7b5c;
+            font-size: 3.8rem;
+            font-family: "Lobster", cursive;
+            text-align: center;
+            margin: 30px 0;
+          }
+          p {
+            font-family: "GenJyuuBold", "Noto Serif JP", serif;
+            line-height: 2;
+            font-size: 1.1rem;
+          }
+        }
+
+        .about__img {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ==================== MEDIA QUERY ==================*/
+
+@media screen and (max-width: 850px) {
+  #aboutus {
+    .bg-pattern01 {
+      .aboutus {
+        max-width: 500px;
+        .row-1,
+        .row-2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .about__txt {
+            padding: 20px 0;
+            width: 480px;
+
+            p {
+              font-size: 1rem;
+            }
+          }
+
+          .about__img {
+            img {
+              width: 480px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #aboutus {
+    .bg-pattern01 {
+      .aboutus {
+        max-width: 350px;
+        .row-1,
+        .row-2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .about__txt {
+            padding: 20px 0;
+            width: 340px;
+
+            h1 {
+              // color: #8b7b5c;
+              // font-size: 4rem;
+              // font-family: "Lobster", cursive;
+              // text-align: center;
+              // margin: 30px 0;
+            }
+            p {
+              font-size: 0.8rem;
+            }
+          }
+
+          .about__img {
+            img {
+              width: 340px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
