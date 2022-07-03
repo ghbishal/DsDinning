@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DsDinning/static/css/main.c4bf21cd.css",
-    "main.js": "/DsDinning/static/js/main.dd694d6a.js",
+    "main.js": "/DsDinning/static/js/main.956e1fd1.js",
     "static/media/Gen Jyuu Gothic Monospace Bold.ttf": "/DsDinning/static/media/Gen Jyuu Gothic Monospace Bold.46d1353d8872b91e0709.ttf",
     "static/media/chickenkeema.jpg": "/DsDinning/static/media/chickenkeema.055991ef1c9ec3177dfe.jpg",
     "static/media/seafood.jpg": "/DsDinning/static/media/seafood.726ac167aa5e25ff3286.jpg",
@@ -14,16 +14,16 @@
     "static/media/bg_main.jpg": "/DsDinning/static/media/bg_main.163c2ce0af85479d0448.jpg",
     "static/media/bgspecial.jpg": "/DsDinning/static/media/bgspecial.5c05595e9dd0abc9ac3e.jpg",
     "static/media/tandoor.jpg": "/DsDinning/static/media/tandoor.1c79c569bb482430b6f5.jpg",
-    "static/media/DsLogo.png": "/DsDinning/static/media/DsLogo.106bfc143665fcda11ab.png",
+    "static/media/DsLogo.png": "/DsDinning/static/media/DsLogo.cd60fbf0990fa1a97de9.png",
     "static/media/bg_pattern02.gif": "/DsDinning/static/media/bg_pattern02.bc1a6b5c06012adee8e6.gif",
     "static/media/bg_pattern03.gif": "/DsDinning/static/media/bg_pattern03.18f18fddf492d474a2ad.gif",
     "static/media/bg_pattern01.gif": "/DsDinning/static/media/bg_pattern01.388b99939143908a88dd.gif",
     "index.html": "/DsDinning/index.html",
     "main.c4bf21cd.css.map": "/DsDinning/static/css/main.c4bf21cd.css.map",
-    "main.dd694d6a.js.map": "/DsDinning/static/js/main.dd694d6a.js.map"
+    "main.956e1fd1.js.map": "/DsDinning/static/js/main.956e1fd1.js.map"
   },
   "entrypoints": [
     "static/css/main.c4bf21cd.css",
-    "static/js/main.dd694d6a.js"
+    "static/js/main.956e1fd1.js"
   ]
 }
