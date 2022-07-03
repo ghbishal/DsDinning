@@ -25,10 +25,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/">
+          <Route path="/">
             <Route index element={<Home />} />
           </Route>
-          <Route exact path="/menu" element={<OurMenu />} />
+          <Route path="/menu" element={<OurMenu />} />
         </Routes>
       </Router>
     </div>
