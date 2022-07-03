@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DsDinning/static/css/main.c4bf21cd.css",
-    "main.js": "/DsDinning/static/js/main.33ce4c7c.js",
+    "main.js": "/DsDinning/static/js/main.72ad1978.js",
     "static/media/Gen Jyuu Gothic Monospace Bold.ttf": "/DsDinning/static/media/Gen Jyuu Gothic Monospace Bold.46d1353d8872b91e0709.ttf",
     "static/media/chickenkeema.jpg": "/DsDinning/static/media/chickenkeema.055991ef1c9ec3177dfe.jpg",
     "static/media/seafood.jpg": "/DsDinning/static/media/seafood.726ac167aa5e25ff3286.jpg",
@@ -20,10 +20,10 @@
     "static/media/bg_pattern01.gif": "/DsDinning/static/media/bg_pattern01.388b99939143908a88dd.gif",
     "index.html": "/DsDinning/index.html",
     "main.c4bf21cd.css.map": "/DsDinning/static/css/main.c4bf21cd.css.map",
-    "main.33ce4c7c.js.map": "/DsDinning/static/js/main.33ce4c7c.js.map"
+    "main.72ad1978.js.map": "/DsDinning/static/js/main.72ad1978.js.map"
   },
   "entrypoints": [
     "static/css/main.c4bf21cd.css",
-    "static/js/main.33ce4c7c.js"
+    "static/js/main.72ad1978.js"
   ]
 }
