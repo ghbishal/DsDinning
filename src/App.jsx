@@ -25,8 +25,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/menu" element={<OurMenu />} />
-          <Route path="/" element={<Home />} />
+          <Route exact path="/menu" element={<OurMenu />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>
