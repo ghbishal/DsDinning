@@ -154,7 +154,7 @@ const Navbar = () => {
         <ul>
           <li>
             <HashLink
-              to="/"
+              to="/#home"
               onClick={() => {
                 setActive(!isActive);
                 setUnchecked((old) => !old);
