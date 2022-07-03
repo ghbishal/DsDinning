@@ -16,8 +16,8 @@ const Contactus = () => {
 
     emailjs
       .sendForm(
-        "service_234f5oj",
-        "template_zzbxy7y",
+        "service_7pl3nrh",
+        "template_jmds86t",
         form.current,
         "VM9x5CufUB2MLxG1C"
       )
@@ -42,16 +42,11 @@ const Contactus = () => {
 
           <div className="contactus-form">
             <form ref={form} onSubmit={sendEmail}>
-              <input
-                type="text"
-                name="name"
-                placeholder="DS Dinning"
-                required
-              />
+              <input type="text" name="name" placeholder="DS Dining" required />
               <input
                 type="email"
                 name="email"
-                placeholder="dsdinning@gmail.com"
+                placeholder="dsdining@gmail.com"
                 required
               />
               <input type="text" name="phone" placeholder="080 - 1234 - 4567" />
@@ -142,7 +137,7 @@ const Contactus = () => {
         </div>
 
         <div class="footer">
-          <p>Copyright © DS Dinning 2022. All Rights Reserved.</p>
+          <p>Copyright © DS Dining 2022. All Rights Reserved.</p>
         </div>
       </div>
     </section>

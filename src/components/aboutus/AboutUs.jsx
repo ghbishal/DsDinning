@@ -12,7 +12,7 @@ const AboutUs = () => {
             <div className="about__txt">
               <h1>ABOUT</h1>
               <p>
-                ようこそ DSDINNING
+                ようこそ DSDINING
                 <br />
                 DSダイニングは本格ネパール・インド料理のお店です。
               </p>
