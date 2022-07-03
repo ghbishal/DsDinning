@@ -98,8 +98,7 @@ const Contactus = () => {
           </div>
           <div className="element">
             <a
-              href="mailto:
-                  nihonsuraj89@gmail.com"
+              href="mailto:dsdining2022@gmail.com"
               className="icon-container"
               target="_blank"
               rel="noreferrer"
@@ -108,12 +107,11 @@ const Contactus = () => {
             </a>
             <h1>メイル</h1>
             <a
-              href="mailto:
-                  nihonsuraj89@gmail.com"
+              href="mailto:dsdining2022@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              nihonsuraj89@gmail.com
+              dsdining2022@gmail.com
             </a>
           </div>
           <div className="element">
