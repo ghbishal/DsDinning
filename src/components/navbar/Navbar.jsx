@@ -190,15 +190,15 @@ const Navbar = () => {
             <input type="checkbox" id="btn-1" />
             <ul>
               <li>
-                <Link
-                  to="#"
+                <HashLink
+                  to="/menu/#salad"
                   onClick={() => {
                     setActive(!isActive);
                     setUnchecked((old) => !old);
                   }}
                 >
                   ランチ
-                </Link>
+                </HashLink>
               </li>
               <li>
                 <Link
