@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/DsDinning/static/css/main.b98b61f4.css",
-    "main.js": "/DsDinning/static/js/main.694f7ec5.js",
+    "main.css": "/DsDinning/static/css/main.1057b82c.css",
+    "main.js": "/DsDinning/static/js/main.f8a9e558.js",
     "static/media/Gen Jyuu Gothic Monospace Bold.ttf": "/DsDinning/static/media/Gen Jyuu Gothic Monospace Bold.46d1353d8872b91e0709.ttf",
     "static/media/chickenkeema.jpg": "/DsDinning/static/media/chickenkeema.055991ef1c9ec3177dfe.jpg",
     "static/media/seafood.jpg": "/DsDinning/static/media/seafood.726ac167aa5e25ff3286.jpg",
     "static/media/butterchickencurry.jpg": "/DsDinning/static/media/butterchickencurry.fc1a30dfe8baf44b32d0.jpg",
     "static/media/chickencurry.jpg": "/DsDinning/static/media/chickencurry.482940283fff609be1ee.jpg",
     "static/media/imgright.png": "/DsDinning/static/media/imgright.2a29c8985903c3307f2d.png",
+    "static/media/lunch.jpg": "/DsDinning/static/media/lunch.c11d6645e5d93e134a9d.jpg",
+    "static/media/tandoori.jpg": "/DsDinning/static/media/tandoori.bdc271f51e84034a7abe.jpg",
+    "static/media/nanrice.jpg": "/DsDinning/static/media/nanrice.4caf9c414e12516413c8.jpg",
+    "static/media/curry01.jpg": "/DsDinning/static/media/curry01.dcae1ad5d6ee0a8d2c4d.jpg",
     "static/media/appetizer.jpg": "/DsDinning/static/media/appetizer.1f6fc4758b8a6b5edeef.jpg",
+    "static/media/curry02.jpg": "/DsDinning/static/media/curry02.184b01e254f4e41b1575.jpg",
     "static/media/saladsoup.jpg": "/DsDinning/static/media/saladsoup.cea7ab81f980eb9162a7.jpg",
     "static/media/a5flyerfront.png": "/DsDinning/static/media/a5flyerfront.2aede33f1d86eca481c7.png",
     "static/media/coupen.png": "/DsDinning/static/media/coupen.5ad9a81368196ee736c1.png",
+    "static/media/dinner.jpg": "/DsDinning/static/media/dinner.210c99c70f3ef1cbdce3.jpg",
     "static/media/a5flyerback.png": "/DsDinning/static/media/a5flyerback.08f46048479061d912fe.png",
     "static/media/bg_main.jpg": "/DsDinning/static/media/bg_main.163c2ce0af85479d0448.jpg",
+    "static/media/drink.jpg": "/DsDinning/static/media/drink.8f587de9db2de2410a4f.jpg",
+    "static/media/takeout.jpg": "/DsDinning/static/media/takeout.18c55138e25dfb2aab6f.jpg",
     "static/media/bgspecial.jpg": "/DsDinning/static/media/bgspecial.5c05595e9dd0abc9ac3e.jpg",
     "static/media/tandoor.jpg": "/DsDinning/static/media/tandoor.1c79c569bb482430b6f5.jpg",
     "static/media/DsLogo.png": "/DsDinning/static/media/DsLogo.cd60fbf0990fa1a97de9.png",
@@ -21,11 +29,11 @@
     "static/media/bg_pattern03.gif": "/DsDinning/static/media/bg_pattern03.18f18fddf492d474a2ad.gif",
     "static/media/bg_pattern01.gif": "/DsDinning/static/media/bg_pattern01.388b99939143908a88dd.gif",
     "index.html": "/DsDinning/index.html",
-    "main.b98b61f4.css.map": "/DsDinning/static/css/main.b98b61f4.css.map",
-    "main.694f7ec5.js.map": "/DsDinning/static/js/main.694f7ec5.js.map"
+    "main.1057b82c.css.map": "/DsDinning/static/css/main.1057b82c.css.map",
+    "main.f8a9e558.js.map": "/DsDinning/static/js/main.f8a9e558.js.map"
   },
   "entrypoints": [
-    "static/css/main.b98b61f4.css",
-    "static/js/main.694f7ec5.js"
+    "static/css/main.1057b82c.css",
+    "static/js/main.f8a9e558.js"
   ]
 }
