@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/DsDinning/static/css/main.c4bf21cd.css",
-    "main.js": "/DsDinning/static/js/main.39752fb8.js",
+    "main.css": "/DsDinning/static/css/main.b98b61f4.css",
+    "main.js": "/DsDinning/static/js/main.694f7ec5.js",
     "static/media/Gen Jyuu Gothic Monospace Bold.ttf": "/DsDinning/static/media/Gen Jyuu Gothic Monospace Bold.46d1353d8872b91e0709.ttf",
     "static/media/chickenkeema.jpg": "/DsDinning/static/media/chickenkeema.055991ef1c9ec3177dfe.jpg",
     "static/media/seafood.jpg": "/DsDinning/static/media/seafood.726ac167aa5e25ff3286.jpg",
     "static/media/butterchickencurry.jpg": "/DsDinning/static/media/butterchickencurry.fc1a30dfe8baf44b32d0.jpg",
     "static/media/chickencurry.jpg": "/DsDinning/static/media/chickencurry.482940283fff609be1ee.jpg",
     "static/media/imgright.png": "/DsDinning/static/media/imgright.2a29c8985903c3307f2d.png",
+    "static/media/appetizer.jpg": "/DsDinning/static/media/appetizer.1f6fc4758b8a6b5edeef.jpg",
+    "static/media/saladsoup.jpg": "/DsDinning/static/media/saladsoup.cea7ab81f980eb9162a7.jpg",
     "static/media/a5flyerfront.png": "/DsDinning/static/media/a5flyerfront.2aede33f1d86eca481c7.png",
     "static/media/coupen.png": "/DsDinning/static/media/coupen.5ad9a81368196ee736c1.png",
     "static/media/a5flyerback.png": "/DsDinning/static/media/a5flyerback.08f46048479061d912fe.png",
@@ -19,11 +21,11 @@
     "static/media/bg_pattern03.gif": "/DsDinning/static/media/bg_pattern03.18f18fddf492d474a2ad.gif",
     "static/media/bg_pattern01.gif": "/DsDinning/static/media/bg_pattern01.388b99939143908a88dd.gif",
     "index.html": "/DsDinning/index.html",
-    "main.c4bf21cd.css.map": "/DsDinning/static/css/main.c4bf21cd.css.map",
-    "main.39752fb8.js.map": "/DsDinning/static/js/main.39752fb8.js.map"
+    "main.b98b61f4.css.map": "/DsDinning/static/css/main.b98b61f4.css.map",
+    "main.694f7ec5.js.map": "/DsDinning/static/js/main.694f7ec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4bf21cd.css",
-    "static/js/main.39752fb8.js"
+    "static/css/main.b98b61f4.css",
+    "static/js/main.694f7ec5.js"
   ]
 }
