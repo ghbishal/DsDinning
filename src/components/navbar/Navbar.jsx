@@ -137,7 +137,7 @@ const Navbar = () => {
     <nav id="navbar" className={scroll ? "scrolled" : " "}>
       <div className="nav-container">
         <div href="/" className="logo">
-          <Link to="/">DS Dinning</Link>
+          <Link to="/">DS Dining</Link>
         </div>
         <label
           for="btn"
@@ -178,7 +178,7 @@ const Navbar = () => {
             <label for="btn-1" class="show">
               メニュー +
             </label>
-            <Link
+            <HashLink
               to="/menu"
               onClick={() => {
                 setActive(!isActive);
@@ -186,12 +186,12 @@ const Navbar = () => {
               }}
             >
               メニュー
-            </Link>
+            </HashLink>
             <input type="checkbox" id="btn-1" />
-            <ul>
+            <ul className={scroll ? "scrolled" : " "}>
               <li>
                 <HashLink
-                  to="/menu/#salad"
+                  to="/menu/#lunch"
                   onClick={() => {
                     setActive(!isActive);
                     setUnchecked((old) => !old);
@@ -201,27 +201,72 @@ const Navbar = () => {
                 </HashLink>
               </li>
               <li>
-                <Link
-                  to="#"
+                <HashLink
+                  to="/menu/#salad"
+                  onClick={() => {
+                    setActive(!isActive);
+                    setUnchecked((old) => !old);
+                  }}
+                >
+                  サラダ
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  to="/menu/#nanrice"
+                  onClick={() => {
+                    setActive(!isActive);
+                    setUnchecked((old) => !old);
+                  }}
+                >
+                  ナン
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  to="/menu/#tandoori"
+                  onClick={() => {
+                    setActive(!isActive);
+                    setUnchecked((old) => !old);
+                  }}
+                >
+                  タンドリー
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  to="/menu/#curry"
+                  onClick={() => {
+                    setActive(!isActive);
+                    setUnchecked((old) => !old);
+                  }}
+                >
+                  カレー
+                </HashLink>
+              </li>
+
+              <li>
+                <HashLink
+                  to="/menu/#dinner"
                   onClick={() => {
                     setActive(!isActive);
                     setUnchecked((old) => !old);
                   }}
                 >
                   ディナー
-                </Link>
+                </HashLink>
               </li>
-              <li>
-                <Link
-                  to="#"
+              {/* <li>
+                <HashLink
+                  to="/menu/#drink"
                   onClick={() => {
                     setActive(!isActive);
                     setUnchecked((old) => !old);
                   }}
                 >
-                  Icons
-                </Link>
-              </li>
+                  ドリンク
+                </HashLink>
+              </li> */}
             </ul>
           </li>
           <li>

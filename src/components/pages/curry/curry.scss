@@ -1,0 +1,27 @@
+#curry {
+  .bg-pattern01 {
+    background-image: url(../../../assets/bg_pattern01.gif);
+    background-repeat: repeat;
+
+    .coupons-container {
+      max-width: var(--container-width-exlg);
+      margin: 0 auto;
+
+      padding-bottom: 30px;
+      .coupons-header {
+        h5 {
+          color: #8b7b5c;
+          font-size: 3.8rem;
+          font-family: "Lobster", cursive;
+          text-align: center;
+          padding: 40px 0;
+          text-transform: uppercase;
+        }
+      }
+
+      .coupon-image {
+        padding: 20px;
+      }
+    }
+  }
+}

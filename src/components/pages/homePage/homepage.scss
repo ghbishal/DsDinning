@@ -17,7 +17,7 @@
         width: 500px;
       }
 
-      .box {
+      button {
         margin-top: 10px;
         padding: 10px 30px;
         border: 3px solid var(--color-white);
@@ -26,6 +26,7 @@
         color: var(--color-black);
         font-size: 1.4rem;
         cursor: pointer;
+        background-color: transparent;
 
         &:hover {
           color: var(--color-white);
@@ -33,13 +34,22 @@
         }
       }
     }
+
+    .customOverlay {
+      background: rgba(36, 123, 160, 0.7);
+    }
+    .customModal {
+      background: #b2dbbf;
+      max-width: 500px;
+      width: 100%;
+    }
   }
 }
 
 /* ==================== MEDIA QUERY ==================*/
 
 @media screen and (max-width: 580px) {
-  #home {
+  #homePage {
     .container {
       .main-logo {
         img {

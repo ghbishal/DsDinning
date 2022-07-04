@@ -13,6 +13,8 @@ import AboutUs from "./components/aboutus/AboutUs";
 import OurMenu from "./components/ourMenu/OurMenu";
 import Coupons from "./components/coupons/Coupons";
 import Contactus from "./components/contactus/Contactus";
+import SaladAppetizer from "./components/pages/saladAppetizer/SaladAppetizer";
+import Curry from "./components/pages/curry/Curry";
 
 function App() {
   return (
@@ -28,7 +30,10 @@ function App() {
           <Route path="/">
             <Route index element={<Home />} />
           </Route>
-          <Route path="/menu" element={<OurMenu />} />
+          <Route path="/menu">
+            <Route exact index element={<OurMenu />} />
+            <Route path="/menu/#curry" element={<Curry />} />
+          </Route>
         </Routes>
       </Router>
     </div>

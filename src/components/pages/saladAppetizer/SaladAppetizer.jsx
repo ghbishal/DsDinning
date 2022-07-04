@@ -4,9 +4,13 @@ import {useState, useCallback} from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, {Modal, ModalGateway} from "react-images";
 
-const photos = [
+const saladappetizer = [
   {src: require("../../../assets/menu/saladsoup.jpg"), width: 2, height: 2},
   {src: require("../../../assets/menu/appetizer.jpg"), width: 2, height: 2},
+];
+
+const Tandoori = [
+  {src: require("../../../assets/menu/tandoori.jpg"), width: 1, height: 1},
 ];
 
 const SaladAppetizer = () => {
@@ -31,11 +35,29 @@ const SaladAppetizer = () => {
             <h5>Salad & Appetizer</h5>
           </div>
           <div className="coupon-image">
-            <Gallery photos={photos} onClick={openLightbox} />
+            <Gallery photos={saladappetizer} onClick={openLightbox} />
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
-                  <Carousel currentIndex={currentImage} views={photos} />
+                  <Carousel
+                    currentIndex={currentImage}
+                    views={saladappetizer}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </div>
+
+          <div id="tandoori" className="coupons-header">
+            <h5>Tandoori</h5>
+          </div>
+
+          <div className="coupon-image">
+            <Gallery photos={Tandoori} onClick={openLightbox} />
+            <ModalGateway>
+              {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel currentIndex={currentImage} views={Tandoori} />
                 </Modal>
               ) : null}
             </ModalGateway>

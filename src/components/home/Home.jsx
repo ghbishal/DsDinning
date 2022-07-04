@@ -1,4 +1,3 @@
-import LOGO from "../../assets/DsLogo.png";
 import "./home.scss";
 import Coupons from "../coupons/Coupons";
 import Contactus from "../contactus/Contactus";

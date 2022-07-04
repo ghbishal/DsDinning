@@ -1,51 +1,51 @@
-#home {
-  background-image: url("../../assets/bg_main.jpg");
-  height: 600px;
-  background-size: cover;
-  .container {
-    margin: 0 auto;
-    padding: 0 60px;
+// #home {
+//   background-image: url("../../assets/bg_main.jpg");
+//   height: 600px;
+//   background-size: cover;
+//   .container {
+//     margin: 0 auto;
+//     padding: 0 60px;
 
-    .main-logo {
-      height: 600px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+//     .main-logo {
+//       height: 600px;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
 
-      img {
-        width: 500px;
-      }
+//       img {
+//         width: 500px;
+//       }
 
-      .box {
-        margin-top: 10px;
-        padding: 10px 30px;
-        border: 3px solid var(--color-white);
-        border-radius: 10px;
-        font-family: "GenJyuuBold", "Noto Serif JP", serif;
-        color: var(--color-black);
-        font-size: 1.4rem;
-        cursor: pointer;
+//       .box {
+//         margin-top: 10px;
+//         padding: 10px 30px;
+//         border: 3px solid var(--color-white);
+//         border-radius: 10px;
+//         font-family: "GenJyuuBold", "Noto Serif JP", serif;
+//         color: var(--color-black);
+//         font-size: 1.4rem;
+//         cursor: pointer;
 
-        &:hover {
-          color: var(--color-white);
-          border-color: var(--color-black);
-        }
-      }
-    }
-  }
-}
+//         &:hover {
+//           color: var(--color-white);
+//           border-color: var(--color-black);
+//         }
+//       }
+//     }
+//   }
+// }
 
-/* ==================== MEDIA QUERY ==================*/
+// /* ==================== MEDIA QUERY ==================*/
 
-@media screen and (max-width: 580px) {
-  #home {
-    .container {
-      .main-logo {
-        img {
-          width: 320px;
-        }
-      }
-    }
-  }
-}
+// @media screen and (max-width: 580px) {
+//   #home {
+//     .container {
+//       .main-logo {
+//         img {
+//           width: 320px;
+//         }
+//       }
+//     }
+//   }
+// }
